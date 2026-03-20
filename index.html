@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Troca cor de fundo</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h3>Escolha uma cor</h3>
+
+        <div class="buttons-container">
+
+            <button class="btn-cor" data-color="#C62828">Vermelho</button>
+            <button class="btn-cor" data-color="#2D7A4D">Verde</button>
+            <button class="btn-cor" data-color="#1565C0">Azul</button>
+            <button class="btn-cor" data-color="purple">Roxo</button>
+            <button class="btn-cor" data-color="#F9A825">Amarelo</button>
+            <button class="btn-cor" data-color="#FFFF">Branco</button>
+            <button id="btn-random">Aleatório</button>
+
+        </div>
+
+        <div class="input-group">
+            <div class="hexa-input">
+
+                <label for="hexaInput">#</label>
+                <input type="text" name="hexa" id="hexaInput" maxlength="7" placeholder="Código hexadecimal">
+                <button id="btn-hexa">Alterar</button>
+                
+            </div>
+
+            <input type="color" name="color" id="colorInput">
+            
+        </div>
+    </div>
+
+</body>
+    <script src="script.js"></script>
+</html>
